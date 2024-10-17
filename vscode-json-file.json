@@ -1,0 +1,98 @@
+{
+  // editor
+  "editor.fontSize": 18,
+  "editor.fontFamily": "Fira Code, Operator Mono",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  // cursor
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+
+  "terminal.integrated.smoothScrolling": true,
+  "editor.mouseWheelZoom": true,
+  "editor.cursorWidth": 3,
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "eslint.alwaysShowStatus": true,
+  //terminal
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+  "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
+  // terminal customization
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#d82756",
+    "terminalCursor.foreground": "#27ff27",
+    "editor.mouseWheelZoom": true,
+    "editor.cursorWidth": 3,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.cursorStyleInactive": "underline",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorWidth": 5,
+    "editor.tabSize": 2,
+    "window.menuBarVisibility": "toggle",
+    // status bar
+    "statusBarItem.remoteBackground": "default",
+    "statusBarItem.remoteHoverBackground": "default"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorStyleInactive": "line",
+  "terminal.integrated.cursorWidth": 3,
+  "files.autoSave": "onFocusChange",
+  "editor.stickyScroll.enabled": false,
+  "editor.smoothScrolling": true,
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+  // for json add me
+  "emmet.showSuggestionsAsSnippets": true,
+  "files.associations": {
+    "*html": "html",
+    "*njk": "html"
+  },
+  "editor.tabSize": 2,
+  "workbench.list.multiSelectModifier": "alt",
+  "reactSnippets.settings.prettierEnabled": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.startupEditor": "none",
+  "explorer.confirmDelete": false,
+  "cSpell.userWords": ["Unkown"],
+  "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "compact",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "tabnine.experimentalAutoImports": true,
+  "css.customData": [""],
+  "css.lint.validProperties": [""],
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  }
+}
